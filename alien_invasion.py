@@ -18,7 +18,7 @@ def run_game():
     stats = GameStats(ai_settings)
 
     # Set the background color.
-    bg_color = (230, 230, 230)
+    bg_color = (22, 22, 24)
 
     # Make a ship, a group of bullets, and a group of aliens.
     ship = Ship(ai_settings, screen)
